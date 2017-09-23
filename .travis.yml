@@ -10,7 +10,7 @@ addons:
 
 script:
   - ./gradlew check
-  - sonar-scanner
+  - sonar-scanner -X
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
