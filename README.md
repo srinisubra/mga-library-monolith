@@ -1,0 +1,2 @@
+# mga-library-monolith
+Test
