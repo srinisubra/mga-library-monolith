@@ -5,7 +5,7 @@ jdk:
 addons:
   sonarqube:
     token:
-      secure: $SONAR_TOKEN
+      secure: 58c0ee55ea89482ae42e6180aed7da0bdf844ba9
 
 script:
   - ./gradlew check
